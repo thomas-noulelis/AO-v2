@@ -1,0 +1,271 @@
+#hglgt-p{
+    background-color: #EC4755;
+    color: white;
+    -webkit-box-shadow: 0px 5px 0px 0px rgba(199,61,67,1);
+    -moz-box-shadow: 0px 5px 0px 0px rgba(199,61,67,1);
+    box-shadow: 0px 5px 0px 0px rgba(199,61,67,1);
+}
+
+#content-profile{
+    height: 100vh;
+    width: 85%;
+    overflow-y: scroll;
+}
+
+#graph{
+    height: 100vh;
+    width: 100%;
+}
+
+#top-section{
+    width: 100%;
+    height: 80vh;
+    background: grey;
+}
+
+#nm-day{
+    width: 30%;
+    height: 80vh;
+    background: white;
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+
+#graph{
+    height: 80vh;
+    width: 70%;
+    float: left;
+    overflow: hidden;
+    background: white;
+}
+
+#btm-section{
+    width: 100%;
+    background: lightgray;
+    position: relative;
+    overflow: hidden;
+}
+
+#name{
+    width: 100%;
+    position: absolute;
+    top: 12vh;
+    left: 3vh;
+}
+
+#big{
+    position: absolute;
+    color: #D5D5D5;
+    font-size: 14vh;
+    top: 27vh;
+    text-align: center;
+    left: 27%;
+}
+#currency{
+    position: absolute;
+    font-size: 4vh;
+    top: 48vh;
+    left: 55%;
+}
+
+#name>h3{
+    position: absolute;
+    top: 4vh;
+    font-size: 4vh;
+    color: red;
+    left: 10%;
+}
+
+#underliner-top{
+    position: absolute;
+    height: 2vh;
+    width: 30vh;
+    background: black;
+    opacity: 0.2;
+    top: 11vh;
+    left: 4vh;
+    z-index: 1;
+}
+
+.challenge-list>h3{
+    color: red;
+    font-size: 3vh;
+    margin-left: 5vh;
+    margin-top: 3vh;
+    margin-bottom: 0vh;
+    margin-right: 0vh;
+    z-index: 3;
+}
+
+.underliner{
+    opacity: 0.3;
+    position: absolute;
+    z-index: 1;
+    background: black;
+    height: 1vh;
+    width: 28vh;
+    left: 5vh;
+    top: 5.4vh;
+}
+
+.chall-pic{
+    position: relative;
+    height: 40vh;
+    width: 40vh;
+    background: darkgray;
+    float: left;
+    overflow: hidden;
+    margin-left: 6.5%;
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+    display: block;
+}
+
+.title-chall{
+    color: white;
+    overflow: hidden;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%;
+}
+
+.participate{
+    position: absolute;
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 1vh 1vh;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.8vh;
+    top: 34vh;
+    left: 1.5vh;
+}
+
+.price{
+    position: absolute;
+    font-size: 1.8vh;
+    color: white;
+    top: 33.4vh;
+    left: 28.5vh;
+}
+
+#bank {display:none;}
+#btn-bk {
+    display:none;
+    width: 650px;
+    text-align: right;
+}
+
+#cross{
+    height: 20px;
+    width: 20px;
+}
+
+#bank{
+    height: 400px;
+    width: 650px;
+}
+
+#amount{
+    width: 32%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    background: white;
+
+}
+
+#cb{
+    width: 68%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    background: white;
+}
+
+body{
+    position: relative;
+}
+
+#donation{
+    height: 425px;
+    width: 650px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 18vh;
+    z-index: 10;
+}
+
+#donation-back{
+    height: 100vh;
+    width: 100vh;
+    background: black;
+    opacity: 0.2;
+}
+
+#shader{
+    z-index: 7;
+    height: 100vh;
+    width: 100vh;
+    background: black;
+    opacity: 0.2;
+}
+
+#don-name{
+    width: 100%;
+    background: #EC4755;
+    color: white;
+    text-align: center;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+#don-amount{
+    text-align: center;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#don-bar{
+    width: 2%;
+    height: 18%;
+    background: grey;
+    margin-left: 49.5%;
+    margin-right: 49.5%;
+
+}
+
+#don-money{
+    margin-top: 15%;
+    margin-bottom: 15%;
+    text-align: center;
+}
+
+#don-btm{
+    color: black;
+    text-align: center;
+    font-size: 1.8vh;
+    margin-top: 30%;
+
+}
+
+#cb-title{
+    height: ;
+    padding-left: 5%;
+    padding-top: 3.2%;
+    padding-bottom: 3.2%;
+}
+
+#cb-form{
+
+}

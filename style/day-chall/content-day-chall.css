@@ -1,0 +1,265 @@
+#hglgt1{
+    background-color: #EC4755;
+    color: white;
+    -webkit-box-shadow: 0px 5px 0px 0px rgba(199,61,67,1);
+    -moz-box-shadow: 0px 5px 0px 0px rgba(199,61,67,1);
+    box-shadow: 0px 5px 0px 0px rgba(199,61,67,1);
+}
+
+#day-header{
+    height: 70vh;
+    background-image:url(https://www.caramaps.com/blog/wp-content/uploads/2016/01/4ltrophy928-credit-wikipedia.jpg);
+    background-size: 100% 125%;
+    background-repeat: no-repeat;
+}
+
+#lower-day{
+    overflow: hidden;
+    height: auto;
+    background-color: #F7F7F7;
+}
+
+#day-shade{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#day{
+    position: absolute;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10vh;
+    top: 18vh;
+    left: 0;
+    right: 0;
+    font-size: 15vh;
+    color: Black;
+    opacity: 0.2;
+    font-weight: bold;
+}
+
+#city{
+    position: absolute;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 12vh;
+    top: 26vh;
+    font-size: 4vh;
+    color: white;
+    font-weight: bold;
+}
+
+#defi{
+    position: absolute;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 15vh;
+    margin-right: 5vh;
+    right: 0;
+    top: 64vh;
+    font-size: 3vh;
+    color: white;
+    font-weight: bold;
+}
+
+.challenge-list{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+h3{
+    color: red;
+    font-size: 3vh;
+    margin-left: 5vh;
+    margin-top: 3vh;
+    margin-bottom: 0vh;
+    margin-right: 0vh;
+    z-index: 3;
+}
+
+.underliner{
+    opacity: 0.3;
+    position: absolute;
+    z-index: 5;
+    background: black;
+    height: 1vh;
+    width: 28vh;
+    left: 5vh;
+    top: 5.4vh;
+}
+
+.chall-pic{
+    position: relative;
+    height: 40vh;
+    width: 40vh;
+    background: darkgray;
+    float: left;
+    overflow: hidden;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    display: block;
+}
+
+.title-chall{
+    color: white;
+    overflow: hidden;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%;
+}
+
+.participate{
+    position: absolute;
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 1vh 1vh;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.8vh;
+    top: 34vh;
+    left: 1.5vh;
+}
+
+.price{
+    position: absolute;
+    font-size: 1.8vh;
+    color: white;
+    top: 33.4vh;
+    left: 28.5vh;
+}
+
+#bank {display:none;}
+#btn-bk {
+    display:none;
+    width: 650px;
+    text-align: right;
+}
+
+#cross{
+    height: 20px;
+    width: 20px;
+}
+
+#bank{
+    height: 400px;
+    width: 650px;
+}
+
+#amount{
+    width: 31.5%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    background: white;
+    border-right: grey solid 1px;
+}
+
+#cb{
+    width: 68%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    background: white;
+}
+
+body{
+    position: relative;
+}
+
+#donation{
+    height: 425px;
+    width: 650px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 18vh;
+    z-index: 10;
+}
+
+#donation-back{
+    height: 100vh;
+    width: 100vh;
+    background: black;
+    opacity: 0.2;
+}
+
+#shader{
+    z-index: 7;
+    height: 100vh;
+    width: 100vh;
+    background: black;
+    opacity: 0.2;
+}
+
+#don-name{
+    width: 100%;
+    background: #EC4755;
+    color: white;
+    text-align: center;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+#don-amount{
+    text-align: center;
+    font-size: 2vh;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#don-bar{
+    width: 1%;
+    height: 18%;
+    background: grey;
+    margin-left: 49.5%;
+    margin-right: 49.5%;
+}
+
+#don-money{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    height: 10%;
+    text-align: center;
+}
+
+#don-money>form{
+    height: 100%;
+}
+
+#don-btm{
+    color: black;
+    text-align: center;
+    font-size: 1.5vh;
+    margin-top: 36%;
+}
+
+#cb-title{
+    height: 5%;
+    padding-left: 5%;
+    padding-top: 3.25%;
+    padding-bottom: 3.5%;
+}
+
+.form{
+    height: 88%;
+    width: 100%;
+
+}
+.field-wrap{
+    height: 10%;
+    width: 100%;
+}

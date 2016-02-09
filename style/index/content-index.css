@@ -1,0 +1,131 @@
+
+#hglgt1{
+    background-color: #EC4755;
+    color: white;
+    -webkit-box-shadow: 0px 5px 0px 0px rgba(199,61,67,1);
+    -moz-box-shadow: 0px 5px 0px 0px rgba(199,61,67,1);
+    box-shadow: 0px 5px 0px 0px rgba(199,61,67,1);
+}
+
+#sub-content{
+    background-image: url("http://www.isme.fr/wp-content/uploads/2015/02/56g-e1423822826145-1024x550.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+#cg {
+    height: 100vh;
+    width: 33.24%;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    display: block;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.6);
+    /* TRANSITION */
+    -webkit-transition: background 1s;
+    -moz-transition: background 1s;
+    -o-transition: background 1s;
+    transition: background 1s;
+}
+
+#k {
+    height: 100vh;
+    width: 33.24%;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    border-left: solid 1px darkgrey;
+    border-right: solid 1px darkgrey;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.6);
+    /* TRANSITION */
+    -webkit-transition: background 1s;
+    -moz-transition: background 1s;
+    -o-transition: background 1s;
+    transition: background 1s;
+}
+
+#v {
+    height: 100vh;
+    width: 33.24%;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.6);
+    /* TRANSITION */
+    -webkit-transition: background 1s;
+    -moz-transition: background 1s;
+    -o-transition: background 1s;
+    transition: background 1s;
+}
+
+a {
+    text-decoration: none;
+}
+
+.catChall{
+    position: absolute;
+    top: 22vh;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    font-size: 4vh;
+    color: white;
+    font-weight: bold;
+}
+
+.typeChall{
+    position: absolute;
+    top: 18vh;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    font-size: 15vh;
+    color: grey;
+    opacity: 0.2;
+    font-weight: bold;
+}
+
+.nbChall{
+    position: absolute;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 48vh;
+    font-size: 2vh;
+    color: white;
+    font-weight: bold;
+}
+
+#cg:hover{
+    background: transparent;
+}#k:hover{
+    background: transparent;
+}#v:hover{
+    background: transparent;
+}
+
+ .sep{
+     position: absolute;
+     height: 6vh;
+     width: 0.3vh;
+     background: white;
+     margin-top: 0;
+     margin-bottom: 0;
+     margin-left: auto;
+     margin-right: auto;
+     left: 0;
+     right: 0;
+     top: 37vh;
+ }
